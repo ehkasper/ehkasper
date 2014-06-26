@@ -37,7 +37,7 @@ body {
 	footer {
 		position: absolute;
 		width: 100%;
-		bottom: 20px;
+		bottom: 1%;
 		background: rgba(50, 50, 50, 0.7);
 		padding: 10px 0;	
 	}
@@ -66,3 +66,19 @@ body {
 			background-position: 0 -392px; 
 			margin-right: 10px;
 		}
+
+@media screen and (max-device-width: 640px) {
+	.wrapper {
+		padding-top: 50px;
+	}
+		h1 {
+			font-size: 2rem;	
+		}
+		h2 {
+			font-size: 1.5rem
+		}
+		picture, img {
+			max-width: 130px;
+			max-height: 130px;
+		}
+}

@@ -9,7 +9,7 @@
 
 		<title>Eduardo Kasper</title>
 
-		<link rel="stylesheet" type="text/css" charset="UTF-8" href="./css/style.min.css">
+		<link rel="stylesheet" type="text/css" charset="UTF-8" href="./css/style.css">
 		<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
 	</head>
 	<body itemscope itemtype="http://schema.org/Person">
@@ -18,8 +18,10 @@
 				<h1 itemprop="name">Eduardo Kasper</h1>
 				<h2 itemprop="jobTitle">Full Stack Developer</h2>
 			</header>
-
-			<img itemprop="image" src="http://www.gravatar.com/avatar/024acb7ca090720c634049e330c2f0b0.jpg?s=200" alt="This picture loads on non-supporting browsers.">
+			<picture>
+				<source media="(max-width: 640px)" srcset="http://www.gravatar.com/avatar/024acb7ca090720c634049e330c2f0b0.jpg?s=130">
+				<img itemprop="image" src="http://www.gravatar.com/avatar/024acb7ca090720c634049e330c2f0b0.jpg?s=200" alt="This picture loads on non-supporting browsers.">
+			</picture>
 		</div>
 
 		<footer class="footer">
