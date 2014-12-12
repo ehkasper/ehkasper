@@ -9,7 +9,15 @@ module.exports = function(grunt) {
 					'css': ['css/style.min.css']
 				}
 			}
+		},
+		uglify: {
+			my_target: {
+				files: {
+				'javascript/index.min.js': ['javascript/index.js']
+				}
+			}
 		}
 	});
 	grunt.loadNpmTasks('grunt-cssshrink');
+	grunt.loadNpmTasks('grunt-contrib-uglify');	
 };
